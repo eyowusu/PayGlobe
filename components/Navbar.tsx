@@ -35,10 +35,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center">
-              <Globe className="w-6 h-6 text-white" />
-            </div>
+          <Link href="/" className="flex items-center space-x-3">
+            <img 
+              src="/payglobe-logo.jpeg" 
+              alt="Payglobe Logo" 
+              className="w-10 h-10 rounded-xl object-cover"
+            />
             <span className={`text-2xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
               Pay<span className="text-primary-500">globe</span>
             </span>

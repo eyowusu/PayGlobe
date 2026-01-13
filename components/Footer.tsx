@@ -49,10 +49,12 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center">
-                <Globe className="w-6 h-6 text-white" />
-              </div>
+            <Link href="/" className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/payglobe-logo.jpeg" 
+                alt="Payglobe Logo" 
+                className="w-10 h-10 rounded-xl object-cover"
+              />
               <span className="text-2xl font-bold">
                 Pay<span className="text-primary-400">globe</span>
               </span>
