@@ -49,15 +49,12 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center space-x-3 mb-6">
+            <Link href="/" className="flex items-center mb-6">
               <img 
                 src="/payglobe-logo.jpeg" 
                 alt="Payglobe Logo" 
-                className="w-10 h-10 rounded-xl object-cover"
+                className="w-40 h-20 rounded-lg object-cover shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
-              <span className="text-2xl font-bold">
-                Pay<span className="text-primary-400">globe</span>
-              </span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Revolutionizing digital finance in Africa through innovative payment solutions, 
